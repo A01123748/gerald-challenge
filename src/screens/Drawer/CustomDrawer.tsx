@@ -1,12 +1,11 @@
-import {  Alert, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import {  Alert, StyleSheet, Text, View } from 'react-native'
 import React, { useRef } from 'react'
 import { useDrawerProgress } from '@react-navigation/drawer'
-import Animated, { interpolate, useAnimatedStyle, withDecay } from 'react-native-reanimated'
+import Animated, { interpolate, useAnimatedStyle } from 'react-native-reanimated'
 import DrawerItemList, { DrawerItem } from './DrawerItemList'
 import colors from '../../constants/colors'
 
 const CustomDrawer = (props) => {
-  const { state, descriptors, navigation } = props;
   const scrollRef = useRef(null)
 
   const drawerProgress = useDrawerProgress();

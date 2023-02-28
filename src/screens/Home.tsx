@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text } from 'react-native';
 import DrawerView from './Drawer/DrawerView';
 
 export default function HomeScreen({navigation}) {
