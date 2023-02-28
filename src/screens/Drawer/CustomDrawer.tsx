@@ -74,8 +74,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginHorizontal: 16 / 2,
     padding: 16 / 1.5,
-    justifyContent: 'center'
-
+    justifyContent: 'center',
+    top: 30
   },
   marginTop: {
     marginTop: 16 / 2,
