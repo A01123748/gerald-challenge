@@ -9,6 +9,7 @@ The look and feel is the more similar I could make it. With enough time I can ma
 
 Install [expo](https://docs.expo.dev/get-started/installation/).
 
+## Run
 ```bash
 npx expo start
 ```
